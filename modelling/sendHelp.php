@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
         $mail->Port = 2525;   // port for SMTP     
 
         $mail->setFrom($sender, "Sender"); // sender's email and name
-        $mail->addAddress('emmanuelamanga2013@gmail.com', "Receiver");  // receiver's email and name
+        $mail->addAddress('ivyjoyweda@gmail.com', "Receiver");  // receiver's email and name
 
         $mail->Subject = $subject;
         $mail->Body    =  $msg;
